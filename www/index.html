@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- CSS dependencies -->
+    <link href="app.css" rel="stylesheet" />
+    <link href="lib/css/pageslider.css" rel="stylesheet" />
+
+    <!-- JS dependencies -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="lib/js/jquery.js"></script>
+    <script src="lib/js/fastclick.js"></script>
+    <script src="lib/js/handlebars.js"></script>
+    <script src="lib/js/router.js"></script>
+    <script src="lib/js/pageslider.js"></script>
+    <script src="lib/js/bac_cordova.js"></script>
+</head>
+
+<!-- HANDLEBARS TEMPLATES -->
+<script type="text/x-handlebars-template">
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+            <h1>{{ title }}</h1>
+            <div class="body">
+                {{ body }}
+            </div>
+        </div>
+    </script>
+</script>
+
+<body>
+    <h1 id="head1">HOPA-TZOPA!??</h1>
+    <input type="button" id="btn1" value="COLOR" style='display:inline-block;padding:1em;margin:1em;width:auto' />
+    <input type="button" id="btn2" value="QRSCAN" style='display:inline-block;padding:1em;margin:1em;width:auto' />
+</body>
+
+<!-- APPLICATION SCRIPTS -->
+<script type="module">
+    // nu merge in android phone import * as caca from "./js/module_example.js"; caca.sayHi();
+</script>
+<script src="js/event_handlers.js"></script>
+<script src="app.js"></script>
+
+
+</html>
