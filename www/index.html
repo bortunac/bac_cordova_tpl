@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
-    <!-- CSS dependencies -->
-    <link href="app.css" rel="stylesheet" />
+    <!-- CSS LIB -->
     <link href="lib/css/pageslider.css" rel="stylesheet" />
 
-    <!-- JS dependencies -->
+    <!-- APPLICATION CSS -->
+    <link href="app.css" rel="stylesheet" />  
+
+    <!-- JS LIB -->
     <script type="text/javascript" src="cordova.js"></script>
     <script src="lib/js/jquery.js"></script>
     <script src="lib/js/fastclick.js"></script>
@@ -17,6 +20,7 @@
     <script src="lib/js/router.js"></script>
     <script src="lib/js/pageslider.js"></script>
     <script src="lib/js/bac_cordova.js"></script>
+    <script src="lib/js/ratchet.js"></script>
 </head>
 
 <!-- HANDLEBARS TEMPLATES -->
@@ -38,9 +42,7 @@
 </body>
 
 <!-- APPLICATION SCRIPTS -->
-<script type="module">
-    // nu merge in android phone import * as caca from "./js/module_example.js"; caca.sayHi();
-</script>
+<script type="module" src="js/make_app.js"></script>
 <script src="js/event_handlers.js"></script>
 <script src="app.js"></script>
 

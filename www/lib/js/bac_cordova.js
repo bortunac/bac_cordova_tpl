@@ -66,6 +66,10 @@
                 }
                 return os;
             })()
+        },
+        __APP__:{
+            value:{},
+            configurable:true
         }
     });
 
@@ -1971,3 +1975,5 @@ getWss = function (port) {
     };
     return socket;
 };
+
+
